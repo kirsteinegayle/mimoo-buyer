@@ -44,7 +44,7 @@ class _LoginPageState extends State<LoginPage> {
     setState(() => _loading = true);
 
     // ── Mock login — set to false once the Laravel backend is live.
-    const useMockLogin = true; // flip to false to use the real API
+    const useMockLogin = false; // flip to false to use the real API
     // ignore: dead_code
 
     if (useMockLogin) {
